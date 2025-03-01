@@ -1,0 +1,42 @@
+.leaderboardFormContainer{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    z-index:1000;
+    form{
+        background-color: red;
+        display: flex;
+        border-radius: 15px;
+        flex-direction: column
+        input{
+            max-width:150px;
+        }
+    }
+}
+.leaderboardContainer{
+    margin-top:4rem;
+    background-color: rgb(114, 113, 112);
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+    width: 300px;
+    table{
+        width:100%;
+
+     
+    }
+}
+.confirmSubmissionText{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    z-index:1000;
+    background: grey;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
