@@ -7,7 +7,7 @@ import LevelOne from './views/LevelOne'
 function App() {
   return (
     
-   <BrowserRouter basename="/WhereisthatPokemon">
+   <BrowserRouter basename="/WhereisthatPokemon/">
         <Header />
 
       
